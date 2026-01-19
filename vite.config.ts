@@ -5,7 +5,7 @@ import postcssPresetEnv from 'postcss-preset-env';
 import {imagetools} from 'vite-imagetools';
 import {viteStaticCopy} from 'vite-plugin-static-copy';
 
-const baseUrl = '/next-card/';
+const baseUrl = '/link-in-bio/';
 
 // @ts-expect-error no type
 import {config} from './src/config';
