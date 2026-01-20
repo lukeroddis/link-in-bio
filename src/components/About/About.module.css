@@ -1,0 +1,42 @@
+.backButton {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1.5rem;
+    background: transparent;
+    border: 1px solid var(--color-border, #ccc);
+    border-radius: 0.375rem;
+    cursor: pointer;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    color: var(--color-text, inherit);
+}
+
+.backButton:hover {
+    background: var(--color-hover-bg, #f5f5f5);
+    border-color: var(--color-text, #000);
+}
+
+.backButton:active {
+    transform: scale(0.98);
+}
+
+.aboutContent {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.aboutContent h1 {
+    margin-bottom: 1rem;
+    font-size: 1.875rem;
+    font-weight: 600;
+}
+
+.aboutContent p {
+    line-height: 1.6;
+    font-size: 1rem;
+}

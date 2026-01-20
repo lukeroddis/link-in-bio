@@ -13,6 +13,8 @@ export const config: Config = {
     title: 'Luke Roddis',
     // Add a brief description to display below the name
     bio: 'Software Engineer',
+    // Add about me content
+    aboutMe: 'I\'m a passionate software engineer with experience in full-stack development. I love building scalable applications and exploring new technologies. When I\'m not coding, you can find me cycling or contributing to open-source projects.',
     // Select a background style
     background: 'demo',
     // Set your Google Analytics id to enable

@@ -1,10 +1,10 @@
 import type {FC} from 'react';
 import {useEffect, Fragment} from 'react';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import ReactGA from 'react-ga4';
 
-import {Background, Container} from '@/components/Background';
-import {Header} from '@/components/Header';
-import {LinksList} from '@/components/LinksList';
+import {Home} from '@/components/Home';
+import {About} from '@/components/About';
 import {config} from '@/config';
 
 const App: FC = () => {
@@ -20,11 +20,12 @@ const App: FC = () => {
     }, []);
     return (
         <Fragment>
-            <Background />
-            <Container>
-                <Header />
-                <LinksList />
-            </Container>
+            <Router>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/about" element={<About />} />
+                </Routes>
+            </Router>
         </Fragment>
     );
 };

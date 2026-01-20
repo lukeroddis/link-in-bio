@@ -43,6 +43,7 @@ export type VCard = {
 export type Config = {
     title: string;
     bio?: string;
+    aboutMe?: string;
     background: keyof typeof Backgrounds;
     gaId?: string;
     shareTitle: string;
