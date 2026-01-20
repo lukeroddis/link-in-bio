@@ -5,7 +5,7 @@ import {
     LinkedinLogoIcon,
     GithubLogoIcon,
     FileTextIcon,
-    StravaLogoIcon,
+    BicycleIcon,
 } from '@phosphor-icons/react/dist/ssr';
 
 export const config: Config = {
@@ -64,7 +64,7 @@ export const config: Config = {
             id: 'strava',
             title: 'Strava',
             url: 'https://www.strava.com/athletes/12345678',
-            icon: StravaLogoIcon,
+            icon: BicycleIcon,
         }
     ],
 };
