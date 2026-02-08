@@ -4,9 +4,11 @@ import {
     WhatsappLogoIcon,
     LinkedinLogoIcon,
     GithubLogoIcon,
-    FileTextIcon,
+    //FileTextIcon,
     BicycleIcon,
 } from '@phosphor-icons/react/dist/ssr';
+
+import type {Config} from './types';
 
 export const config: Config = {
     // Set your or company name
@@ -38,16 +40,16 @@ export const config: Config = {
             id: 'whatsapp',
             url: 'https://wa.me/447890311309',
             icon: WhatsappLogoIcon,
-        }
+        },
     ],
     // Set main links
     mainLinks: [
-        {
-            id: 'cv',
-            title: 'Download CV',
-            url: 'https://example.com',
-            icon: FileTextIcon,
-        },
+        // {
+        //     id: 'cv',
+        //     title: 'Download CV',
+        //     url: 'https://example.com',
+        //     icon: FileTextIcon,
+        // },
         {
             id: 'github',
             title: 'GitHub',
@@ -63,8 +65,8 @@ export const config: Config = {
         {
             id: 'strava',
             title: 'Strava',
-            url: 'https://www.strava.com/athletes/12345678',
+            url: 'https://www.strava.com/athletes/27614436',
             icon: BicycleIcon,
-        }
+        },
     ],
 };

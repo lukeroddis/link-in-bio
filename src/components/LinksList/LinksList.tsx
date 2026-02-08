@@ -18,7 +18,7 @@ export const LinksList: FC<Props> = ({mainLinks = config.mainLinks, gaId = confi
     return (
         <div className={classes.wrapper}>
             <div className={classes.list}>
-                {mainLinks.map(({url, id, title, icon: Icon}) => {
+                {mainLinks.map(({url, id, title, icon: Icon}: Config['mainLinks'][number]) => {
                     const handleShare = async (event: MouseEvent) => {
                         event.preventDefault();
                         if (typeof window !== 'undefined') {
